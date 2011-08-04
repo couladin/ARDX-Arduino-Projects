@@ -1,0 +1,9 @@
+ARDX "EXPERIMENTER'S GUIDE FOR ARDUINO"
+
+This repository contains the source code, breadboard layouts and README information for the ARDX arduino tutorial kit. It is designed for use with the ARDX Arduino Experimentation Kit, such as can be purchased from oomlout (http://oomlout.com/), but that is not a requirement or limitation.
+
+The book can be downloaded as a free PDF (from http://ardx.org/src//guide/2/ARDX-EG-OOML-DD.pdf), the breadboard layout sheets can be downloaded as a free PDF (http://oomlout.com/products/ARDX/ARDX-circuit-sheets.pdf), and there is an Instructables for the kit (http://www.instructables.com/id/Arduino-Expermentation-Kit-How-to-get-Started-wi/).
+
+Please see http://ardx.org/ or http://www.oomlout.com/a/products/ardx/ for more information. 
+
+The information in this repository belongs to oomlout.com and is shared here by the repository's owner under the terms of CC licence.

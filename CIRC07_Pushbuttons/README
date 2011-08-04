@@ -1,0 +1,10 @@
+CIRC-07: PUSHBUTTONS
+
+Up to this point we have focused entirely on outputs, time to get our Arduino to listen, watch and feel. We’ll start with a simple pushbutton. Wiring up the pushbutton is simple. There is one component, the pull up resistor, that might seem out of place. This is included because an Arduino doesn’t sense the same way we do (ie button pressed, button unpressed). Instead it looks at the voltage on the pin and decides whether it is HIGH or LOW. The button is set up to pull the Arduino’s pin LOW when it is pressed, however, when the button is unpressed the voltage of the pin will float (causing occasional errors). To get the Arduino to reliably read the pin as HIGH when the button is unpressed, we add the pull up resistor.
+
+(note: the first example program uses only one of the two buttons)
+
+Breadboard layout sheet: http://ardx.org/BBLS07
+Assembly video: http://ardx.org/VIDE07
+
+See http://ardx.org/CIRC07 for more information.

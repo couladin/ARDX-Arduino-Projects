@@ -1,0 +1,8 @@
+CIRC-09: PHOTO-RESISTORS
+
+Whilst getting input from a potentiometer can be useful for human controlled experiments, what do we use when we want an environmentally controlled experiment? We use exactly the same principles but instead of a potentiometer (twist based resistance) we use a photo resistor (light based resistance). The Arduino cannot directly sense resistance (it senses voltage) so we set up a voltage divider (http://ardx.org/VODI). The exact voltage at the sensing pin is calculable, but for our purposes (just sensing relative light) we can experiment with the values and see what works for us. A low value will occur when the sensor is well lit while a high value will occur when it is in darkness.
+
+Breadboard layout sheet: http://ardx.org/BBLS09
+Assembly video: http://ardx.org/VIDE09
+
+See http://ardx.org/CIRC09 for more information.

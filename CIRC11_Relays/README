@@ -1,0 +1,8 @@
+CIRC-11: RELAYS
+
+The final circuit is a bit of a test. We combine what we learned about using transistors in CIRC03 to control a relay. A relay is an electrically controlled mechanical switch. Inside the little plastic box is an electromagnet that, when energized, causes a switch to trip (often with a very satisfying clicking sound). You can buy relays that vary in size from a quarter of the size of the one in this kit up to as big as a fridge, each capable of switching a certain amount of current. They are immensely fun because there is an element of the physical to them. While all the silicon we’ve played with to this point is fun sometimes you just want to wire up a hundred switches to control something magnificent. Relays give you the ability to dream it up then control it with your Arduino. Now to using today’s technology to control the past. (The 1N4001 diode is acting as a flyback diode, for details on why it’s there visit: http://ardx.org/4001)
+
+Breadboard layout sheet: http://ardx.org/BBLS11
+Assembly video: http://ardx.org/VIDE11
+
+See http://ardx.org/CIRC11 for more information.

@@ -1,0 +1,10 @@
+CIRC-05: 74HC595 SHIFT REGISTER
+
+Time to start playing with chips. Or integrated circuits (ICs) as they like to be called. The external packaging of a chip can be very deceptive for example the chip on the Arduino board (a micro controller) and the one we will use in this circuit (a shift register) look very similar but are in fact rather different, for example the price of the Atmega chip on the arduino board is a few dollars while the 74hc595 is a couple dozen cents. It’s a good introductory chip, and once you’re comfortable playing around with it and its datasheet (available online http://ardx.org/74HC595 ) the world of chips will be you’re oyster. The shift register (also called a serial to parallel converter), will give you an additional 8 outputs (to control LEDs and the like) using only three arduino pins. They can also be linked together to give you a nearly unlimited number of outputs using the same four pins. To use it you “clock in” the data and then latch lock it in (latch it). To do this you set the data pin to either HIGH or LOW, pulse the clock, then set the data pin again and pulse the clock repeating until you have shifted out 8 bits of data. Then you pulse the latch and the 8 bits are transferred to the shift registers pins. It sounds complicated but is really simple once you get the hang of it.
+
+(for a more in depth look at how a shift register works visit: http://ardx.org/SHIF)
+
+Breadboard layout sheet: http://ardx.org/BBLS05
+Assembly video: http://ardx.org/VIDE05
+
+See http://ardx.org/CIRC05 for more information.

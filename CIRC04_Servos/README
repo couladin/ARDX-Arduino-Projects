@@ -1,0 +1,8 @@
+CIRC-04: SERVOS
+
+Spinning a motor is good fun but when it comes to projects where motion control is required they tend to leave us wanting more. The answer? Hobby servos. They are mass produced, widely available and cost anything from a couple of dollars to hundreds. Inside is a small gearbox (to make the movement more powerful) and some electronics (to make it easier to control). A standard servo is positionable from 0 to 180 degrees. Positioning is controlled through a timed pulse, between 1.25 milliseconds (0 degrees) and 1.75 milliseconds (180 degrees) (1.5 milliseconds for 90 degrees). Timing varies between manufacturer. If the pulse is sent every 25-50 milliseconds the servo will run smoothly. One of the great features of the Arduino is it has a software library that allows you to control two servos (connected to pin 9 or 10) using a single line of code.
+
+Breadboard layout sheet: http://ardx.org/BBLS04
+Assembly video: http://ardx.org/VIDE04
+
+See http://ardx.org/CIRC04 for more information.

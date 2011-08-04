@@ -1,0 +1,8 @@
+CIRC-08: POTENTIOMETERS
+
+Along with the digital pins the Arduino has it also has 6 pins which can be used for analog input. These inputs take a voltage (from 0 to 5 volts) and convert it to a digital number between 0 (0 volts) and 1023 (5 volts) (10 bits of resolution). A very useful device that exploits these inputs is a potentiometer (also called a variable resistor). When it is connected with 5 volts across its outer pins the middle pin will read some value between 0 and 5 volts dependent on the angle to which it is turned (ie. 2.5 volts in the middle). We can then use the returned values as a variable in our program.
+
+Breadboard layout sheet: http://ardx.org/BBLS08
+Assembly video: http://ardx.org/VIDE08
+
+See http://ardx.org/CIRC08 for more information.

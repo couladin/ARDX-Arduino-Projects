@@ -1,0 +1,8 @@
+CIRC-06: PIEZO ELEMENTS
+
+To this point we have controlled light, motion, and electrons, Let’s tackle sound next. But sound is an analog phenomena, how will our digital Arduino cope? We will once again rely on its incredible speed which will let it mimic analog behavior. To do this, we will attach a piezo element to one of the Arduino’s digital pins. A piezo element makes a clicking sound each time it is pulsed with current. If we pulse it at the right frequency (for example 440 times a second to make the note middle A) these clicks will run together to produce notes. Let’s get to experimenting with it and get your Arduino playing ‘Twinkle Twinkle Little Star’.
+
+Breadboard layout sheet: http://ardx.org/BBLS06
+Assembly video: http://ardx.org/VIDE06
+
+See http://ardx.org/CIRC06 for more information.

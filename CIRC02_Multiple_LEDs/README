@@ -1,0 +1,13 @@
+CIRC-02: MULTIPLE LEDS
+
+We have caused one LED to blink, now its time to up the stakes. Lets connect eight. We’ll also have an opportunity to stretch the Arduino a bit by creating various lighting sequences. This circuit is also a nice setup to experiment with writing your own programs and getting a feel for how the Arduino works.
+
+Along with controlling the LEDs we start looking into a few simple programming methods to keep your programs small.
+
+  for() loops – used when you want to run a piece of code several times.
+  arrays[] – used to make managing variables easier (its a group of variables).
+
+Breadboard layout sheet: http://ardx.org/BBLS02
+Assembly video: http://ardx.org/VIDE02
+
+See http://ardx.org/CIRC02 for more information.

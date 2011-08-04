@@ -1,0 +1,12 @@
+CIRC-10: TEMPERATURE SENSORS
+
+What’s the next phenomena we will measure with our Arduino? Temperature. To do this we’ll use a rather complicated IC (integrated circuit) hidden in a package identical to our P2N2222AG transistors. It has three pins ground, signal and +5 volts, and is easy to use. It outputs 10 millivolts per degree centigrade on the signal pin (to allow measuring temperatures below freezing there is a 500 mV offset eg. 25° C = 750 mV, 0° C = 500mV). To convert this from the digital value to degrees we will use some of the Arduino’s maths abilities. Then to display it we’ll use one of the IDE’s rather powerful features, the debug window. We’ll output the value over a serial connection to display on the screen. Let’s get to it.
+
+One extra note, this circuit uses the Arduino IDE’s serial monitor. To open this, first upload the program then click the button which looks like a square with an antennae.
+
+The TMP36 Datasheet: http://ardx.org/TMP36
+
+Breadboard layout sheet: http://ardx.org/BBLS10
+Assembly video: http://ardx.org/VIDE10
+
+See http://ardx.org/CIRC10 for more information.

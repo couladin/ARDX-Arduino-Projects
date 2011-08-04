@@ -1,0 +1,10 @@
+CIRC-03: TRANSISTOR & MOTOR
+
+The Arduino’s pins are great for directly controlling small electric items like LEDs. However, when dealing with larger items (like a toy motor or washing machine), an external transistor is required. A transistor is incredibly useful. It switches a lot of current using a much smaller current. A transistor has 3 pins. For a negative type (NPN) transistor you connect your load to collector and the emitter to ground. Then when a small current flows from base to the emitter a current will flow through the transistor and your motor will spin (this happens when we set our Arduino pin HIGH). There are literally thousands of different types of transistors, allowing every situation to be perfectly matched. We have chosen a P2N2222AG a rather common general purpose transistor. The important factors in our case are that its maximum voltage (40 v) and its maximum current (600 milliamp) are both high enough for our toy motor (full details can be found on its datasheet http://ardx.org/2222 )
+
+(The 1N4001 diode is acting as a flyback diode for details on why its there visit: http://ardx.org/4001)
+
+Breadboard layout sheet: http://ardx.org/BBLS03
+Assembly video: http://ardx.org/VIDE03
+
+See http://ardx.org/CIRC03 for more information.

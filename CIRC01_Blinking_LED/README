@@ -1,0 +1,8 @@
+CIRC-01: BLINKING LED
+
+LEDs (light emitting diodes) are used in all sorts of clever things which is why we have included them in this kit. We will start off with something very simple, turning one on and off, repeatedly, producing a pleasant blinking effect. Once the circuit is assembled you’ll need to upload the program. To do this plug the Arduino board into your USB port. Then select the proper port in Tools > Serial Port > (the comm port of your Arduino). Next upload the program by going to File > Upload to I/O Board (ctrl+U). Finally bask in the glory and possibility that controlling lights offers.
+
+Breadboard layout sheet: http://ardx.org/BBLS01
+Assembly video: http://ardx.org/VIDE01
+
+See http://ardx.org/CIRC01 for more information.
